@@ -5,8 +5,7 @@
     "main": "app.js",
     "scripts": {
         "lint": "jshint app.js",
-        "test": "node app.js",
-        "posttest": "npm run lint"
+        "test": "npm run lint"
     },
     "repository": {
         "type": "git",
