@@ -1,0 +1,30 @@
+{
+    "name": "simple-travis-ci",
+    "version": "1.0.0",
+    "description": "Simple App for Travis CI",
+    "main": "app.js",
+    "scripts": {
+        "lint": "jshint app.js",
+        "test": "node app.js",
+        "posttest": "npm run lint"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fuadajip/simple-travis-ci.git"
+    },
+    "keywords": [
+        "travis-ci"
+    ],
+    "author": "fuadajip",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/fuadajip/simple-travis-ci/issues"
+    },
+    "homepage": "https://github.com/fuadajip/simple-travis-ci#readme",
+    "dependencies": {
+        "express": "^4.15.3"
+    },
+    "devDependencies": {
+        "jshint": "^2.9.4"
+    }
+}
