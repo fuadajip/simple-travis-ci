@@ -5,7 +5,7 @@
 This app is used to implement in Travis CI, show how build test continously processed.
 
 ## Status
-[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)]()
+[![Build Status](https://travis-ci.org/fuadajip/simple-travis-ci.svg?branch=master)](https://travis-ci.org/fuadajip/simple-travis-ci)
 
 ## Setup
     npm install
